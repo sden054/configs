@@ -1,0 +1,62 @@
+! To apply this file use: xrdb -merge ~/.Xresources
+! Font style
+xterm*faceName: Terminus:pixelsize=16
+
+! Enable colors
+xterm*dynamicColors: true
+
+! Enable utf-8
+xterm*utf8: 2
+
+! Window size
+xterm*VT100.geometry: 100x40
+
+! No more bell
+xterm*vbell: True
+
+! Scrollback
+xterm*savelines: 32768
+
+! double-click to select whole URLs :D
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+!! Foreground & background
+!xterm*background:#293b3b
+!xterm*foreground:#bf6e63
+!
+!!terminal colours----------------------------------------------------------------------
+!!http://www.xcolors.net/dl/fishbone
+!
+!!black
+!xterm*color0:#293b3b
+!xterm*color8:#344040
+!
+!!red
+!xterm*color5:#bf5357
+!xterm*color13:#bf6367
+!
+!!green
+!xterm*color2:#41a551
+!xterm*color10:#51a55f
+!
+!!yellow
+!xterm*color3:#aea64f
+!xterm*color11:#aea75d
+!
+!!blue
+!xterm*color4:#416ea5
+!xterm*color12:#5177a5
+!
+!!magenta
+!xterm*color1:#bf6053 
+!xterm*color09:#bf6e63
+!
+!!cyan
+!xterm*color6:#714da5
+!xterm*color14:#7859a5
+!
+!!white
+!xterm*color7:#876868
+!xterm*color15:#876f6f
+!
+!!----------------------------------------------------------------------------
